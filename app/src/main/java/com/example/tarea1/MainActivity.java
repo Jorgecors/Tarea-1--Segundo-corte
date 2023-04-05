@@ -41,6 +41,11 @@ public class MainActivity extends AppCompatActivity {
                         intent = new Intent(MainActivity.this, FibonacciActivity.class);
                         startActivity(intent);
                         break;
+
+                    case 4:
+                        intent = new Intent(MainActivity.this, Mapa_b.class);
+                        startActivity(intent);
+                        break;
                     default:
                         Toast.makeText(MainActivity.this, "Ingresa un número válido", Toast.LENGTH_SHORT).show();
                 }
